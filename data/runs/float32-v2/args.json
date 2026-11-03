@@ -1,0 +1,43 @@
+{
+ "name": "float32-v2",
+ "epochs": 60,
+ "batch": 64,
+ "lr": 0.004,
+ "workers": 10,
+ "eval_every": 2,
+ "pretrained": "/mnt/ssd/Data/senior/weights/yolov3-tiny.weights",
+ "seed": 0,
+ "torch": "2.14.1+cu130",
+ "leaky": 0.1,
+ "anchors": [
+  [
+   [
+    19,
+    24
+   ],
+   [
+    35,
+    52
+   ],
+   [
+    69,
+    83
+   ]
+  ],
+  [
+   [
+    100,
+    166
+   ],
+   [
+    170,
+    100
+   ],
+   [
+    232,
+    204
+   ]
+  ]
+ ],
+ "tf32": false
+}

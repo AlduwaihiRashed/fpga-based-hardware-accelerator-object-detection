@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Data that is too big for GitHub (over its 100 MB file limit) or rebuilt automatically.
+# These stay in the shared folder copy (see README "Sharing"), just not in Git.
+data/datasets/
+*.pkl
+data/runs/**/last.pt
+data/runs/float32-v1/
+data/runs/*.out
+# Kept in Git on purpose (all under 50 MB): data/weights/yolov3-tiny.weights,
+# data/runs/float32-v2/{best.pt,*.onnx}, data/runs/int8-ptq/*, data/splits/*
+
+# Vitis HLS / Vivado build output
+hardware/**/solution*/
+hardware/**/.Xil/
+hardware/**/*.runs/
+hardware/**/*.cache/
+hardware/**/*.hw/
+hardware/**/*.ip_user_files/
+hardware/**/*.sim/
+hardware/**/*.log
+hardware/**/*.jou
+hardware/**/*.str
+hardware/**/vitis_hls.log
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+*.swp

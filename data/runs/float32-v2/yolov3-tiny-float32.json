@@ -1,0 +1,66 @@
+{
+ "weights": "/mnt/ssd/Data/senior/runs/float32-v2/best.pt",
+ "input": "RGB, letterbox 320x320 (pad 128, bilinear), float32 = pixel / 255, NCHW",
+ "outputs": "raw heads (B,3,H,W,25): tx, ty, tw, th, objectness, 20 class logits; stride 16 then 32",
+ "strides": [
+  16,
+  32
+ ],
+ "anchors": [
+  [
+   [
+    19,
+    24
+   ],
+   [
+    35,
+    52
+   ],
+   [
+    69,
+    83
+   ]
+  ],
+  [
+   [
+    100,
+    166
+   ],
+   [
+    170,
+    100
+   ],
+   [
+    232,
+    204
+   ]
+  ]
+ ],
+ "leaky_slope": 0.1,
+ "classes": [
+  "aeroplane",
+  "bicycle",
+  "bird",
+  "boat",
+  "bottle",
+  "bus",
+  "car",
+  "cat",
+  "chair",
+  "cow",
+  "diningtable",
+  "dog",
+  "horse",
+  "motorbike",
+  "person",
+  "pottedplant",
+  "sheep",
+  "sofa",
+  "train",
+  "tvmonitor"
+ ],
+ "conf_eval": 0.005,
+ "conf_live": 0.25,
+ "nms_iou": 0.45,
+ "max_det": 200
+}

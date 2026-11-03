@@ -1,0 +1,8 @@
+# Tested with Python 3.12. Install the PyTorch build for your CUDA version from pytorch.org.
+torch==2.14.1
+torchvision==0.29.1
+numpy==2.5.3
+opencv-python-headless==5.0.0.93
+onnx==1.23.2
+onnxruntime==1.31.1
+matplotlib==3.11.2

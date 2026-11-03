@@ -1,0 +1,7 @@
+{
+ "best_epoch": 28.0,
+ "val_map11": 63.04,
+ "val_map": 64.04,
+ "test_map11": 64.58,
+ "test_map": 65.93
+}
